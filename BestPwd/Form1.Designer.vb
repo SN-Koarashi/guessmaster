@@ -31,14 +31,14 @@ Partial Class Form1
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(92, 23)
         Me.Button1.TabIndex = 2
-        Me.Button1.Text = "開始遊戲"
+        Me.Button1.Text = "START"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(116, 47)
+        Me.ClientSize = New System.Drawing.Size(120, 47)
         Me.Controls.Add(Me.Button1)
         Me.MaximizeBox = False
         Me.MinimizeBox = False

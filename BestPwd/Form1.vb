@@ -13,22 +13,22 @@ Startmy:
             GoTo Startmy
         End If
         If chance >= 3 Then
-            MsgBox("失敗，答案是 " & ans & vbCrLf & "你最後輸入的數字是 " & ansq_if)
+            MsgBox("Game over, answer number is " & ans & vbCrLf & "You last type number is " & ansq_if)
         Else
-            ansq_if = InputBox("輸入一個1~100的數字")
+            ansq_if = InputBox("Type a number between 1 to 100.")
             If IsNumeric(ansq_if) Then
                 If ansq_if >= 1 And ansq_if <= 100 Then
                     ansq = ansq_if
                     If ans = ansq Then
                         chance += 1
-                        MsgBox("答對，答案是 " & ans)
+                        MsgBox("Congratulations!" & vbCrLf & "Answer number is " & ans)
                         Exit Sub
                     ElseIf ansq > ans Then
                         chance += 1
                         If (3 - chance) = 0 Then
                             GoTo Startmy
                         Else
-                            MsgBox("你輸入的數字太高了，應介於 " & lower & "~" & ansq & vbCrLf & "還剩下 " & (3 - chance) & " 次機會")
+                            MsgBox("Your number too higher, it should be between " & lower & " to " & ansq & vbCrLf & "Left " & (3 - chance) & " chance.")
 
                             GoTo Startmy
                         End If
@@ -38,20 +38,20 @@ Startmy:
                         If (3 - chance) = 0 Then
                             GoTo Startmy
                         Else
-                            MsgBox("你輸入的數字太低了，應介於" & ansq & "~" & higher & vbCrLf & "還剩下 " & (3 - chance) & " 次機會")
+                            MsgBox("Your number too lower, it should be between " & ansq & " to " & higher & vbCrLf & "Left " & (3 - chance) & " chance.")
 
                             GoTo Startmy
                         End If
                     End If
                 Else
-                    MsgBox("請輸入1~100的數字")
+                    MsgBox("Please type between 1 to 100 number")
                     GoTo Startmy
                 End If
             ElseIf ansq_if.Length = 0 Then
                 ' Nothing
-                MsgBox("您選擇了離開遊戲?!")
+                MsgBox("Do you want to exit the game?!")
             Else
-                MsgBox("您選擇了離開遊戲")
+                MsgBox("Do you want to exit the game!!")
             End If
         End If
 
