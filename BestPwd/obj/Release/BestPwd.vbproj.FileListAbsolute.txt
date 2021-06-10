@@ -1,0 +1,12 @@
+C:\Users\Koarashi\source\repos\BestPwd\BestPwd\bin\Release\GuessMaster.exe.config
+C:\Users\Koarashi\source\repos\BestPwd\BestPwd\bin\Release\GuessMaster.exe
+C:\Users\Koarashi\source\repos\BestPwd\BestPwd\bin\Release\GuessMaster.pdb
+C:\Users\Koarashi\source\repos\BestPwd\BestPwd\bin\Release\GuessMaster.xml
+C:\Users\Koarashi\source\repos\BestPwd\BestPwd\obj\Release\GuessMaster.Form1.resources
+C:\Users\Koarashi\source\repos\BestPwd\BestPwd\obj\Release\GuessMaster.Resources.resources
+C:\Users\Koarashi\source\repos\BestPwd\BestPwd\obj\Release\BestPwd.vbproj.GenerateResource.cache
+C:\Users\Koarashi\source\repos\BestPwd\BestPwd\obj\Release\BestPwd.vbproj.CoreCompileInputs.cache
+C:\Users\Koarashi\source\repos\BestPwd\BestPwd\obj\Release\GuessMaster.exe
+C:\Users\Koarashi\source\repos\BestPwd\BestPwd\obj\Release\GuessMaster.xml
+C:\Users\Koarashi\source\repos\BestPwd\BestPwd\obj\Release\GuessMaster.pdb
+C:\Users\Koarashi\source\repos\BestPwd\BestPwd\obj\Release\BestPwd.vbprojAssemblyReference.cache
